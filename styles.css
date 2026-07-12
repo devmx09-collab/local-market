@@ -61,3 +61,7 @@ body {
   .categories { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .listings { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+.categories button.active {
+  background: #111827;
+  color: white;
+}
