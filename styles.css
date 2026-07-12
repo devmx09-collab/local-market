@@ -124,3 +124,39 @@ body {
   background: #111827;
   color: white;
 }
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+
+.image {
+  height: 140px;
+  background: linear-gradient(135deg, #e5e7eb, #f3f4f6);
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px;
+}
+
+.card-row h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card-row p {
+  margin: 4px 0 0;
+  color: #6b7280;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.card-row strong {
+  white-space: nowrap;
+  font-size: 1rem;
+}
