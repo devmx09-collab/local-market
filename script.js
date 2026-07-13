@@ -1,3 +1,4 @@
+alert("script loaded");
 const listings = [
   { title: "Used iPhone 13", price: "$320", area: "Downtown", category: "Electronics" },
   { title: "Wood desk", price: "$45", area: "North Side", category: "Furniture" },
