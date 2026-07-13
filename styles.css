@@ -184,3 +184,38 @@ body {
   background: transparent;
   font-size: 28px;
 }
+.post-form.hidden {
+  display: none;
+}
+
+.post-form {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0 24px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+
+.post-form input,
+.post-form button {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  font: inherit;
+}
+
+.post-form input:focus {
+  outline: none;
+  border-color: #111827;
+  box-shadow: 0 0 0 3px rgba(17,24,39,.08);
+}
+
+.post-form button {
+  background: #111827;
+  color: #fff;
+  border: 0;
+  font-weight: 600;
+}
