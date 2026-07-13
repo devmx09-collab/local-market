@@ -219,3 +219,8 @@ body {
   border: 0;
   font-weight: 600;
 }
+.categories button.active {
+  background: #111827;
+  color: #fff;
+  border-color: #111827;
+}
