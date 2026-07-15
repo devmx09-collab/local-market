@@ -89,11 +89,13 @@ function renderListings() {
   const filtered = currentListings.filter((d) => {
     const matchesCategory =
       activeCategory === "all" ||
-      (d.category || "").trim().toLowerCase() === activeCategory;
-
-    const matchesArea =
-      !activeArea ||
-      (d.area || "").trim().toLowerCase().includes(activeArea);
+      (d.category || "").trim().toLowerCase() === activeCategory;   
+       
+       const matchesArea =
+  !activeArea ||
+  activeArea
+    .split(/\s+/)
+    .every(word => (d.area || "").toLowerCase().includes(word));
 
     return matchesCategory && matchesArea;
   });
